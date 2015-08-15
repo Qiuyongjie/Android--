@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+	android:layout_marginRight="20dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".FakeQQLogin"
+    >
+    
+    <!-- Top image -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:contentDescription="@string/login_top_image"
+        android:src="@drawable/ic_launcher" />
+	
+    
+    <!-- Container of Usename manipulate zone -->
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="100dp"
+	    android:gravity="center"
+	    android:orientation="horizontal" >
+	    
+	    <!-- User icon -->
+	    <ImageView 
+	        android:id="@+id/image_icon"
+	        android:layout_width="50dp"
+	        android:layout_height="50dp"
+	        android:layout_marginRight="10dp"
+	        android:contentDescription="@string/login_image_icon"
+	        android:src="@drawable/icon" />
+		<!-- EditText container on the left of user icon-->
+		<LinearLayout
+		    android:id ="@+id/txtBoxContianer"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:orientation="vertical"
+		    >"
+		    <EditText
+		        android:id ="@+id/txtUsername"
+		        android:layout_width="fill_parent"
+		        android:layout_height="40dp"
+		        android:layout_marginTop="5dp"
+		        android:layout_marginBottom="10dp"
+		  		android:hint="@string/username"
+		  		android:inputType="text"
+		        />"
+		    <EditText 
+		        android:id="@+id/txtPassword"
+		      	android:layout_marginBottom="5dp"
+		        android:layout_width="fill_parent"
+		        android:hint="@string/password"
+		        android:layout_height="40dp"
+		        android:inputType="textPassword"/>
+		</LinearLayout>
+	</LinearLayout>
+		
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="30dp"
+	    android:gravity="center"
+	    android:orientation="horizontal" >
+	 <CheckBox
+	     android:id="@+id/chb_remember"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:text="@string/chb_remember" />
+
+	 <CheckBox
+	     android:id="@+id/chb_autoLogin"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:text="@string/chb_autoLogin" />
+
+	</LinearLayout>
+	  
+	<LinearLayout   
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:orientation="horizontal" >
+
+		<Button
+		    android:id="@+id/btnLogin"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/btnLogin" />
+	
+	</LinearLayout>
+	
+</LinearLayout>

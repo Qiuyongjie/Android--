@@ -1,0 +1,40 @@
+package com.youyou.youme.ui;
+
+import android.os.Bundle;
+import android.view.Menu;
+
+import com.youyou.youme.R;
+import com.youyou.youme.view.vxlist.XListView.IXListViewListener;
+
+
+/**
+ *  快速匹配陌生人
+ * @author youyou
+ *
+ */
+public class FastPairActivity extends ActivityBase  implements IXListViewListener{
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_fast_pair);
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.fast_pair, menu);
+		return true;
+	}
+
+	@Override
+	public void onRefresh() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void onLoadMore() {
+		// TODO Auto-generated method stub
+		
+	}
+}

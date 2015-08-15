@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FakeQQ</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="login_top_image">this is the login top image, may be the icon</string>
+    <string name="login_image_icon">login image/icon</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="btnLogin">Login</string>
+    <string name="chb_autoLogin">Auto login</string>
+    <string name="chb_remember">Remember me</string>
+    <string name="Toast_Login_Successfully">Login successfully</string>
+    <string name="title_activity_friend_list">FriendList</string>
+    <string name="Toast_Login_failed">Login failed, please check you password or username!</string>
+
+</resources>
+

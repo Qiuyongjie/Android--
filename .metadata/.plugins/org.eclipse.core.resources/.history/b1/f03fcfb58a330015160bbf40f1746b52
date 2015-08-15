@@ -1,0 +1,8 @@
+package com.youyou.youme.adapter;
+
+import com.youyou.youme.view.vxlist.XListView;
+
+public class FastPairAdapter {
+	XListView mListView;
+	
+}

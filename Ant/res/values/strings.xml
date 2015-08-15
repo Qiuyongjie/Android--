@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ant</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="img_btn_light">turns light on or off</string>
+    <string name="err_LightNotSupport">Flashlight was not supported Please check permission or your hardware!</string>
+    <string name="err_Title">Warning</string>
+    <string name="txtOk">Okay</string>
+    <string name="title_activity_compass">Compass</string>
+    <string name="title_activity_stopwatch">Stopwatch</string>
+
+    <!-- stopwatch -->
+    <string name="btn_rstCount">Reset</string>
+    <string name="btn_startContinue">Start</string>
+    <string name="_00_00">00:00</string>
+    <string name="_00">00</string>
+    <string name="title_activity_voice_recorder">VoiceRecorder</string>
+
+</resources>

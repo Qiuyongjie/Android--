@@ -1,0 +1,11 @@
+package com.youyou.youme.ui;
+
+
+/**
+ *  快速匹配陌生人
+ * @author youyou
+ *
+ */
+public class FastPairActivity {
+
+}
